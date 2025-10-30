@@ -20,10 +20,10 @@ int main() {
 
         cout << "[ + ] Цикл \"WHILE\"" << endl << endl;
 
-        int counter = 1;
-        while (counter <= number) {
-            cout << "[ + ] Цикл отработал. Круг: " << counter << "." << endl;
-            counter++;
+        int count = 1;
+        while (count <= number) {
+            cout << "[ + ] Цикл отработал. Круг: " << count << "." << endl;
+            count++;
         }
 
         cout << endl; 
